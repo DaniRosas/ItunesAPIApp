@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_apiumhub"
+        />
+
+    <TextView
+        android:id="@+id/artistNameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageView"
+        android:text="Jack Johnson"
+        />
+    <TextView
+        android:id="@+id/albumNameTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_centerVertical="true"
+        android:textSize="18dp"
+        android:maxLines="2"
+        android:textStyle="bold"
+        android:text="Album Of Jack Johnson"
+        />
+    <TextView
+        android:id="@+id/numTracksTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imageView"
+        android:layout_toEndOf="@id/imageView"
+        />
+
+
+</RelativeLayout>
